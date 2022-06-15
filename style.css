@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+    h1, h3 {
+        margin: 2rem;
+
+    }
+
+header {
+    display: flex;
+    margin: 2rem;
+    justify-content: space-between;
+}
+.h3-launch {
+    padding-top: 2rem;
+    color: #FF3998;
+}
+.h1-nft {
+    width: 274px;
+    height: 116px;
+    font-size: 75px;
+    line-height: 58px;
+    font-weight: bolder;
+}
+.allien-launch {
+    display: flex;
+}
+.description {
+    padding-top: 3rem;
+    font-size: 20px;
+    line-height: 150%;
+    margin-left: 2rem;
+    color: #555555;
+}
+
+.signup {
+    font-size: large;
+    margin: 2rem;
+    height: 4rem;
+    border-radius: 40px;
+    width: 9rem;
+    background-color: white;
+    border-color: rgb(255, 47, 0) 
+    /* border-image: linear-gradient(to right, red, rgba(242, 242, 11, 0.234)) 1;
+    background: linear-gradient(45deg,red,rgb(153, 255, 0)) border-box; 
+       -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;  */
+}
+
+.nft-earlybirds {
+    font-size: large;
+    height: 15rem;
+    text-align:justify;
+    background-image: linear-gradient(to right, rgb(250, 118, 106) , rgb(220, 165, 120));
+}
+
+
+
