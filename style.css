@@ -3,7 +3,6 @@
 }
     h1, h3 {
         margin: 2rem;
-
     }
 
 header {
@@ -35,7 +34,7 @@ header {
 
 .signup {
     font-size: large;
-    margin: 2rem;
+    margin: 3rem;
     height: 4rem;
     border-radius: 40px;
     width: 9rem;
@@ -49,13 +48,57 @@ header {
     -webkit-mask-composite: xor;
             mask-composite: exclude;  */
 }
-
+.nft-main {
+    background-image: url("assets/assets/background.svg");
+}
 .nft-earlybirds {
     font-size: large;
-    height: 15rem;
-    text-align:justify;
-    background-image: linear-gradient(to right, rgb(250, 118, 106) , rgb(220, 165, 120));
+    height: 20rem;
+    margin-left: 2rem;
+    border-bottom-left-radius: 0%;
 }
 
+.p1 {
+    font-size: 70px;
+    margin-bottom: 0;
+}
+.p2 {
+    font-size: 25px;
+}
 
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    padding-top: 4rem;
+}
+.item {
+    flex: 33.33%;
+    margin: 5px;
+    height: 3rem;
+    width:  20%;
+}
+.h1-auction {
+    padding-top: 2rem;
+    font-size: 4rem;
+}
+.p-auction {
+    margin-left: 2rem;
+    font-size: 20px;
+    line-height: 150%;
+    margin-left: 2rem;
+    color: #555555;
+}
+.nfts-photos {
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 0;
+    clear: both;
+}
+.p-nft1-alignleft {
+    margin-top: 0;
+    background-color: #EEEEEE;
+    border-radius: 5%;
+    float: left;
+}
