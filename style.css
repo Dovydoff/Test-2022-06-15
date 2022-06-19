@@ -5,6 +5,10 @@
         margin: 2rem;
     }
 
+    .header-menu {
+        display: none;
+    }
+
 header {
     display: flex;
     margin: 2rem;
@@ -24,6 +28,9 @@ header {
 .allien-launch {
     display: flex;
 }
+
+
+
 .description {
     padding-top: 3rem;
     font-size: 20px;
@@ -50,6 +57,7 @@ header {
 }
 .nft-main {
     background-image: url("assets/assets/background.svg");
+    background-repeat: no-repeat;
 }
 .nft-earlybirds {
     font-size: large;
@@ -57,6 +65,7 @@ header {
     margin-left: 2rem;
     border-bottom-left-radius: 0%;
 }
+
 
 .p1 {
     font-size: 70px;
@@ -101,4 +110,100 @@ header {
     background-color: #EEEEEE;
     border-radius: 5%;
     float: left;
+}
+
+.companies-logos {
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    color: #555555;
+}
+.description-2 {
+    font-size: 20px;
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    color: #555555;
+}
+
+.container2 {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4fr 4fr;
+}
+.content1, .content2, .content3, .content4 {
+    padding-left: 1px;  
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+        text-decoration: none;
+        color: #555555;
+}
+
+.item4 {
+        display: none;
+    }
+
+    #footer2 {
+        display: none;
+    }
+
+
+@media screen and (min-width: 800px) {
+
+    .hamburger {
+        display: none;
+    }
+    .item4 {
+        display: flex;
+        flex: 33.33%;
+        margin: 5px;
+        height: 3rem;
+        width:  20%;
+    }
+    
+    .header-menu {
+        display:contents;
+        display:flex;
+    }
+    .header-menu2 > a {
+        margin-left: 20px;
+        color: #555555;
+        justify-content: space-between;
+
+    }
+    .container > img, .item4 {
+        display: inline-block;
+        max-width: 18%;
+
+    }
+    
+    .container {
+        display: inline-block;
+        flex-direction: row;
+    }
+
+    .container2 {
+        display: flex;
+        justify-content: end;
+        margin-right: 20px;
+        margin-top: 0;
+        
+   }
+
+   .logo-description {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-between;
+   }
+   .footer {
+    display: flex;
+    justify-content: space-between;
+   }
+
 }
